@@ -22,7 +22,7 @@ for i in thisisit.text:
     driver.find_element_by_css_selector('.txtInput').send_keys(i)
 #to be able to watch your results
 time.sleep(10)
-for i in range (3):
+for i in range (2):
     #i wanted it not to just write a single time but as many times as we wish.
     driver.find_element_by_css_selector('.raceAgainLink').click()
     time.sleep(15)
